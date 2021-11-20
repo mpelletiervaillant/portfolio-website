@@ -4868,6 +4868,7 @@ legend {
   --font-secondary: soleil, sans-serif;
   --font-third: 'Spartan', sans-serif;
   --color-black: #1C1C1C;
+  --color-beige: #f8f7f5;
 }
 
 html {
@@ -4893,6 +4894,10 @@ p {
 
 .my-padding {
   padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
+}
+
+.my-padding-btm {
   padding-bottom: 6.5rem;
 }
 
@@ -4923,4 +4928,31 @@ a {
 
 .black {
   color: var(--color-black);
+}
+
+.shop-background {
+  background-color: var(--color-beige);
+}
+
+.enter-here-btn {
+  border: 1px solid var(--color-black);
+  color: var(--color-black);
+  text-decoration: none;
+  font-family: var(--font-secondary);
+  padding: 1.5em 2.5em 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: linear-gradient(to right, #fff 50%, var(--color-black) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .3s ease-in-out;
+}
+
+.enter-here-btn:hover {
+  background-position: right bottom;
+  color: #fff;
+}
+
+.social-media-links {
+  background-color: var(--color-beige);
 }
