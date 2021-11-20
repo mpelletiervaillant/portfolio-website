@@ -4867,7 +4867,7 @@ legend {
   --font-primary: p22-mackinac-pro, serif;
   --font-secondary: soleil, sans-serif;
   --font-third: 'Spartan', sans-serif;
-  --color-primary: #537BFF;
+  --color-black: #1C1C1C;
 }
 
 html {
@@ -4894,4 +4894,33 @@ p {
 .my-padding {
   padding-top: 6.5rem;
   padding-bottom: 6.5rem;
+}
+
+.arrow-icon {
+  width: 96px;
+  transition: all .2s ease-in-out;
+}
+
+.banner-img {
+  transition: all .2s ease-in-out;
+}
+
+.hover-card:hover {
+  cursor: pointer;
+}
+
+.hover-card:hover .arrow-icon {
+  transform: translateX(10%);
+}
+
+.hover-card:hover .banner-img {
+  transform: scale(1.015);
+}
+
+a {
+  text-decoration: none;
+}
+
+.black {
+  color: var(--color-black);
 }

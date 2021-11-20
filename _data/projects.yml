@@ -1,0 +1,36 @@
+- projectLink: /gee-gees
+  projectTitle: Gee-Gees Marketing Materials
+  projectShortDescription: Marketing Materials for uOttawa Gee-Gees.
+  projectBanner: /gee-gees/gee-gees-banner.jpg
+  gridClass: m-1
+
+- projectLink: /wellness
+  projectTitle: Mental Health & Wellness
+  projectShortDescription: uOttawa's Mental Health & Wellness rebrand.
+  projectBanner: /wellness/wellness-banner.jpg
+  gridClass: m-1-2
+
+- projectLink: /high-desert-sonnets
+  projectTitle: High Desert Sonnets
+  projectShortDescription: uOttawa's Mental Health & Wellness rebrand.
+  projectBanner: /hds/hds-banner.jpg
+  gridClass: m-1-2
+
+- projectLink: /youthfully
+  projectTitle: Youthfully Branding
+  projectShortDescription: Marketing Materials for uOttawa Gee-Gees.
+  projectBanner: /youthfully/youthfully-banner.jpg
+  gridClass: m-1
+
+- projectLink: /creative-mornings
+  projectTitle: Creative Mornings Lettering
+  projectShortDescription: uOttawa's Mental Health & Wellness rebrand.
+  projectBanner: /cm/creative-mornings-banner.jpg
+  gridClass: m-1-2
+
+- projectLink: /wattiq
+  projectTitle: WattIQ
+  projectShortDescription: uOttawa's Mental Health & Wellness rebrand.
+  projectBanner: /wattiq/wattiq-banner.jpg
+  gridClass: m-1-2
+

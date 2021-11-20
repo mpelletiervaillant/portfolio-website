@@ -6,16 +6,65 @@ layout: main
 </div>
 
 <section> 
-  <div class="grid grid-middle wrapper">
-    <div class="unit xs-1 img-flex pad-b-2">
-      <img class="img-flex push" src="{{site.baseurl}}/images/gee-gees/gee-gees-banner.jpg" alt="">
+  <div class="grid grid-top wrapper">
+
+    {% for work in site.data.projects %}
+      {% include project-banners.html data=work %}
+    {% endfor %}
+
+    <!-- <div class="unit xs-1 img-flex pad-b-2 gutter hover-card">
+      <img class="banner-img img-flex push" src="{{site.baseurl}}/images/gee-gees/gee-gees-banner.jpg" alt="">
       <h2 class="giga push-0">Gee-Gees Marketing Materials</h2>
       <p class="milli">Not every project becomes a case study! Take a look at a few of my favourite side projects.</p>
+      <div class="arrow-icon">
+        <img src="{{site.baseurl}}/images/arrow-icon.svg" alt="">
+       </div> 
     </div>
-    <div class="unit xs-1 s-1 m-1-2 img-flex">
-      <img class="img-flex push" src="{{site.baseurl}}/images/wellness/wellness-banner.jpg" alt="">
+
+    <div class="unit xs-1 s-1 m-1-2 img-flex gutter hover-card">
+      <img class="banner-img img-flex push" src="{{site.baseurl}}/images/wellness/wellness-banner.jpg" alt="">
       <h2 class="giga push-0">Mental Health & Wellness</h2>
       <p class="milli">Not every project becomes a case study! Take a look at a few of my favourite side projects.</p>
+      <div class="arrow-icon">
+       <img src="{{site.baseurl}}/images/arrow-icon.svg" alt="">
+      </div> 
     </div>
+
+    <div class="unit xs-1 s-1 m-1-2 img-flex pad-b-2 gutter hover-card">
+      <img class="banner-img img-flex push" src="{{site.baseurl}}/images/hds/hds-banner.jpg" alt="">
+      <h2 class="giga push-0">The High Desert Sonnets</h2>
+      <p class="milli">Not every project becomes a case study! Take a look at a few of my favourite side projects.</p>
+      <div class="arrow-icon">
+        <img src="{{site.baseurl}}/images/arrow-icon.svg" alt="">
+       </div> 
+    </div>
+
+    <div class="unit xs-1 img-flex pad-b-2 gutter hover-card">
+      <img class="banner-img img-flex push" src="{{site.baseurl}}/images/youthfully/youthfully-banner.jpg" alt="">
+      <h2 class="giga push-0">Youthfully Branding</h2>
+      <p class="milli">Not every project becomes a case study! Take a look at a few of my favourite side projects.</p>
+      <div class="arrow-icon">
+        <img src="{{site.baseurl}}/images/arrow-icon.svg" alt="">
+       </div> 
+    </div>
+
+    <div class="unit xs-1 s-1 m-1-2 img-flex pad-b-2 gutter hover-card">
+      <img class="banner-img img-flex push" src="{{site.baseurl}}/images/cm/creative-mornings-banner.jpg" alt="">
+      <h2 class="giga push-0">Creative Mornings Lettering</h2>
+      <p class="milli">Not every project becomes a case study! Take a look at a few of my favourite side projects.</p>
+      <div class="arrow-icon">
+        <img src="{{site.baseurl}}/images/arrow-icon.svg" alt="">
+       </div> 
+    </div>
+
+    <div class="unit xs-1 s-1 m-1-2 img-flex gutter hover-card">
+      <img class="banner-img img-flex push" src="{{site.baseurl}}/images/wellness/wellness-banner.jpg" alt="">
+      <h2 class="giga push-0">Mental Health & Wellness</h2>
+      <p class="milli">Not every project becomes a case study! Take a look at a few of my favourite side projects.</p>
+      <div class="arrow-icon">
+       <img src="{{site.baseurl}}/images/arrow-icon.svg" alt="">
+      </div> 
+    </div> -->
+
   </div>
 </section>
