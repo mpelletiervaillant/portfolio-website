@@ -27,6 +27,13 @@ p {
   width: 100%;
 }
 
+.small-max-length {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 28em;
+  width: 100%;
+}
+
 .my-padding {
   padding-top: 6.5rem;
   padding-bottom: 6.5rem;
@@ -67,6 +74,10 @@ a {
 
 .sans {
   font-family: var(--font-secondary);
+}
+
+.serif {
+  font-family: var(--font-primary);
 }
 
 .shop-background {
@@ -170,3 +181,80 @@ a {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+/* The High Desert Sonnets  */
+
+.hds-logo {
+  background-color: var(--color-beige);
+}
+
+.hds-light-color {
+  color: #F5E6C9;
+}
+
+.event-text {
+  padding: 0 8em 0 8em;
+}
+
+.hds-light-background {
+  background-color: #F5E6C9;
+}
+
+.hds-dark-background {
+  background-color: #583017;
+}
+
+.next-project-hds {
+  background: linear-gradient(to right, #F5E6C9 50%, #52D0B6 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
+}
+
+.next-project-hds:hover {
+  background-position: right bottom;
+}
+
+/* Next Pooject Button */
+
+.next-project-section {
+  width: 100%;
+}
+
+.next-project-text {
+  transition: all .6s ease-in-out;
+}
+
+.view-next {
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+}
+
+/* .next-project-pbl,
+.next-project-parkinsons,
+.next-project-cm,
+.next-project-quilt {
+  transition: all .6s ease-in-out;
+}
+
+.next-project-pbl:hover {
+  background-color: var(--quilt-color);
+}
+
+.next-project-parkinsons:hover {
+  background-color: var(--canimmunize-color);
+}
+
+.next-project-cm:hover {
+  background-color: var(--color-canimmunize-color);
+}
+
+.next-project-quilt:hover {
+  background-color: var(--parkinsons-color);
+} */
+
+.next-project-section:hover .next-project-text {
+  transform: scale(1.05);
+}
+
