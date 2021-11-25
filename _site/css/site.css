@@ -5140,6 +5140,12 @@ nav a:hover {
   background-position: right bottom;
 }
 
+/* Youthfully */
+
+.w-49 {
+  width: 49%;
+}
+
 /* Next Pooject Button */
 
 .next-project-section {
