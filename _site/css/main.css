@@ -10,7 +10,7 @@ html {
   scroll-behavior: smooth;
 }
 
-h1, h2 {
+h1, h2, h4 {
   font-family: var(--font-primary);
   font-weight: 400;
 }
@@ -41,6 +41,10 @@ p {
 
 .my-padding-btm {
   padding-bottom: 6.5rem;
+}
+
+.my-padding-top {
+  padding-top: 6.5rem;
 }
 
 .arrow-icon {
@@ -80,7 +84,7 @@ a {
   font-family: var(--font-primary);
 }
 
-.shop-background {
+.light-background {
   background-color: var(--color-beige);
 }
 
@@ -135,9 +139,8 @@ a {
   transition: all .15s ease-in-out;
 }
 
-
 .social-media-links:hover {
-  color:v#000;
+  color:#000;
 }
 
 .footer-copyright {
@@ -153,27 +156,11 @@ a {
   line-height: 2.15;
 }
 
-.hds-case-study-banner {
-  background-image: url("{{site.baseurl}}/images/hds/hds-case-study-banner.jpg"); /* The image used */
+.case-study-banner {
   height: 500px; /* You must set a specified height */
   background-position: top; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
-}
-
-.intro-paragraph {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 32em;
-  width: 100%;
-}
-
-.lead-paragraph {
-  font-family: var(--font-primary);
-}
-
-.lead-text {
-  line-height: 2;
 }
 
 .tag {
@@ -182,7 +169,38 @@ a {
   letter-spacing: 2px;
 }
 
+/* Gee-Gees */
+
+.gee-gees-case-study-banner {
+  background-image: url("{{site.baseurl}}/images/gee-gees/gee-gees-banner.jpg"); /* The image used */
+}
+
+/* Wellness  */
+
+.wellness-case-study-banner {
+  background-image: url("{{site.baseurl}}/images/wellness/wellness-guidelines.jpg"); /* The image used */
+}
+
+.wellness-background-light {
+  background-color: #F6F5F1;
+}
+
+.next-project-wellness:hover {
+  background-position: right bottom;
+}
+
+.next-project-wellness {
+  background: linear-gradient(to right, #8FAC50 50%, #F5E6C9 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
+}
+
 /* The High Desert Sonnets  */
+
+.hds-case-study-banner {
+  background-image: url("{{site.baseurl}}/images/hds/hds-case-study-banner.jpg"); /* The image used */
+}
 
 .hds-logo {
   background-color: var(--color-beige);

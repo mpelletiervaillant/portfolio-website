@@ -1,13 +1,22 @@
-- projectLink: /gee-gees
-  projectTitle: Gee-Gees Marketing Materials
+- projectLink: /gee-gees-promotion
+  projectTitle: Gee-Gees Promotion
   projectShortDescription: Marketing Materials for uOttawa Gee-Gees.
   projectBanner: /gee-gees/gee-gees-banner.jpg
+  projectHeaderImage: gee-gees-case-study-banner
+  projectDate: July 2021 - Ongoing
+  nextProject: Wellness
+  nextUrl: /wellness
   gridClass: m-1
 
 - projectLink: /wellness
   projectTitle: Mental Health & Wellness
   projectShortDescription: uOttawa's Mental Health & Wellness rebrand.
+  projectLongDescription: The client had spent 1 month in the New Mexico desert writing sonnets. When he came home, he approached Simple Story to help with the creation of videos and branding for the project to eventually share his work and story with family and friends.
   projectBanner: /wellness/wellness-banner.jpg
+  projectHeaderImage: wellness-case-study-banner
+  projectDate: March 2021 - Ongoing
+  nextProject: High Desert Sonnets
+  nextUrl: /high-desert-sonnets
   gridClass: m-1-2
 
 - projectLink: /high-desert-sonnets
@@ -20,6 +29,7 @@
   projectUrl: https://highdesertsonnets.com/
   projectDate: November 2019 - February 2020
   nextProject: Youthfully
+  nextURL: /youthfully
   gridClass: m-1-2
 
 - projectLink: /youthfully
