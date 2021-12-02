@@ -76,12 +76,20 @@ a {
   color: var(--color-black);
 }
 
+.white {
+  color: #ffffff;
+}
+
 .sans {
   font-family: var(--font-secondary);
 }
 
 .serif {
   font-family: var(--font-primary);
+}
+
+.light-border {
+  border: 1px solid lightgrey;
 }
 
 /* Navigation */
@@ -217,6 +225,17 @@ nav a:hover {
   background-image: url("{{site.baseurl}}/images/gee-gees/gee-gees-banner.jpg"); /* The image used */
 }
 
+.next-project-gee-gees {
+  background: linear-gradient(to right, #5d0024 50%, #91AF51 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
+}
+
+.next-project-gee-gees:hover {
+  background-position: right bottom;
+}
+
 /* Wellness  */
 
 .wellness-case-study-banner {
@@ -232,7 +251,7 @@ nav a:hover {
 }
 
 .next-project-wellness {
-  background: linear-gradient(to right, #8FAC50 50%, #F5E6C9 50%);
+  background: linear-gradient(to right, #91AF51 50%, #F5E6C9 50%);
   background-size: 200% 100%;
   background-position: left bottom;
   transition: all .6s ease-in-out;
@@ -277,8 +296,51 @@ nav a:hover {
 
 /* Youthfully */
 
+.youthfully-case-study-banner {
+  background-image: url("{{site.baseurl}}/images/youthfully/branding-guidelines.jpg"); /* The image used */
+}
+
+.w-33 {
+  width: 32%;
+}
+
+
 .w-49 {
   width: 49%;
+}
+
+.next-project-youthfully {
+  background: linear-gradient(to right, #52D0B6 50%, #7F62AD 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
+}
+
+.next-project-youthfully:hover {
+  background-position: right bottom;
+}
+
+/* CANImmunize */
+
+.canimmunize-case-study-banner {
+  background-image: url("{{site.baseurl}}/images/canimmunize/canimmunize-header.jpg"); /* The image used */
+}
+
+/* WattIQ */
+
+.wattiq-case-study-banner {
+  background-image: url("{{site.baseurl}}/images/wattiq/video-3.jpg"); /* The image used */
+}
+
+.next-project-wattiq {
+  background: linear-gradient(to right, #092039 50%, #7F62AD 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
+}
+
+.next-project-wattiq:hover {
+  background-position: right bottom;
 }
 
 /* Next Pooject Button */

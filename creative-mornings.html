@@ -1,0 +1,24 @@
+---
+layout: main
+title: Mélany Pelletier-Vaillant · The High Desert Sonnets
+meta: A collection of various works completd for CANImmunize, a vaccination tracking app.
+---
+{% assign data=site.data.projects[2] %}
+{% include project-headers.html data=data %}
+
+<section class="wrapper">
+  <div class="my-padding-btm pad-t">
+    <div class="ib gutter">
+        <p class="tag micro push-0">Company</p>
+        <p class="milli">CANImmunize</p>
+    </div> 
+    <div class="ib gutter">   
+        <p class="tag micro push-0">Website</p>
+        <a class="push ib sans milli black" href="{{data.projectUrl}}">{{data.projectWebsite}}</a>
+      </div>
+      <div class="ib gutter">   
+        <p class="tag micro push-0">Date</p>
+        <p class="milli ib">{{data.projectDate}}</p>    
+    </div>  
+  </div>
+</section>
