@@ -138,6 +138,10 @@ nav a:hover {
   background-color: var(--color-beige);
 }
 
+.dark-background {
+  background-color: #333132;
+}
+
 .visit-shop-btn {
   color: var(--color-black);
   font-family: var(--font-third);
@@ -326,6 +330,17 @@ nav a:hover {
   background-image: url("{{site.baseurl}}/images/canimmunize/canimmunize-header.jpg"); /* The image used */
 }
 
+.next-project-canimmunize {
+  background: linear-gradient(to right, #016eb1 50%, #092039 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
+}
+
+.next-project-canimmunize:hover {
+  background-position: right bottom;
+}
+
 /* WattIQ */
 
 .wattiq-case-study-banner {
@@ -340,6 +355,40 @@ nav a:hover {
 }
 
 .next-project-wattiq:hover {
+  background-position: right bottom;
+}
+
+/* QUILT */
+
+.quilt-case-study-banner {
+  background-image: url("{{site.baseurl}}/images/quilt/quilt-banner.jpg"); /* The image used */
+}
+
+.next-project-quilt {
+  background: linear-gradient(to right, #d63532 50%, #42b3c3 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
+}
+
+.next-project-quilt:hover {
+  background-position: right bottom;
+}
+
+/* Canadian Geographic */
+
+.cangeo-case-study-banner {
+  background-image: url("{{site.baseurl}}/images/can-geo/cangeo-header.jpg"); /* The image used */
+}
+
+.next-project-cangeo {
+  background: linear-gradient(to right, #42b3c3 50%, #42b3c3 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
+}
+
+.next-project-cangeo:hover {
   background-position: right bottom;
 }
 

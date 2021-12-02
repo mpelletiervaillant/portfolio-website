@@ -41,7 +41,7 @@
   projectHeaderImage: youthfully-case-study-banner
   projectDate: April 2021 - August 2021
   nextProject: CANImmunize
-  nextURL: /canimmunize
+  nextUrl: /canimmunize
   gridClass: m-1
 
 - projectLink: /canimmunize
@@ -52,7 +52,7 @@
   projectWebsite: www.canimmunize.ca
   projectDate: April 2018 - April 2019
   nextProject: WattIQ
-  nextURL: /wattiq
+  nextUrl: /wattiq
   gridClass: m-1-2
 
 - projectLink: /wattiq
@@ -63,7 +63,7 @@
   projectHeaderImage: wattiq-case-study-banner
   projectDate: October 2020 - March 2020
   nextProject: Canadian Geographic
-  nextURL: canadian-geographic
+  nextUrl: canadian-geographic
   gridClass: m-1-2
 
 - projectLink: /quilt
@@ -71,10 +71,10 @@
   projectShortDescription: Branded materials including stationery and video illustrations.
   projectLongDescription: When WattIQ approached us, they didn't have a clear look and feel for their brand. Using their existing logo and brand colours, I proposed and developed various cohesive materials to elevate their brand presence!
   projectBanner: /quilt/quilt-banner.jpg
-  projectHeaderImage: wattiq-case-study-banner
-  projectDate: October 2020 - March 2020
+  projectHeaderImage: quilt-case-study-banner
+  projectDate: May 2018
   nextProject: CANImmunize
-  nextURL: canimmunize
+  nextUrl: canimmunize
   gridClass: m-1
 
 - projectLink: /can-geo
@@ -82,10 +82,10 @@
   projectShortDescription: Branded materials including stationery and video illustrations.
   projectLongDescription: When WattIQ approached us, they didn't have a clear look and feel for their brand. Using their existing logo and brand colours, I proposed and developed various cohesive materials to elevate their brand presence!
   projectBanner: /can-geo/cangeo-spread-1.jpg
-  projectHeaderImage: wattiq-case-study-banner
-  projectDate: October 2020 - March 2020
-  nextProject: CANImmunize
-  nextURL: canimmunize
+  projectHeaderImage: cangeo-case-study-banner
+  projectDate: May 2019 - March 2020
+  nextProject: Creative Mornings
+  nextUrl: creative-mornings
   gridClass: m-1-2
 
 - projectLink: /creative-mornings
