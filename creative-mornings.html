@@ -3,22 +3,74 @@ layout: main
 title: Mélany Pelletier-Vaillant · The High Desert Sonnets
 meta: A collection of various works completd for CANImmunize, a vaccination tracking app.
 ---
-{% assign data=site.data.projects[2] %}
+{% assign data=site.data.projects[8] %}
 {% include project-headers.html data=data %}
 
 <section class="wrapper">
   <div class="my-padding-btm pad-t">
     <div class="ib gutter">
         <p class="tag micro push-0">Company</p>
-        <p class="milli">CANImmunize</p>
+        <p class="milli">Creative Mornings Ottawa</p>
     </div> 
-    <div class="ib gutter">   
-        <p class="tag micro push-0">Website</p>
-        <a class="push ib sans milli black" href="{{data.projectUrl}}">{{data.projectWebsite}}</a>
-      </div>
       <div class="ib gutter">   
         <p class="tag micro push-0">Date</p>
         <p class="milli ib">{{data.projectDate}}</p>    
-    </div>  
+    </div>
+    <div class="ib gutter">   
+      <p class="tag micro push-0">Tags</p>
+      <p class="milli ib">Lettering</p>    
+  </div>  
   </div>
+</section>
+
+<section class="light-background my-padding">
+  <div class="wrapper">
+    <div class="wrapper gutter small-max-length text-center">
+      <h2 class="giga push-1-2">Sketches</h2>
+      <p class="milli push-0">The team decided to create two event posters. The first design features the desert within the silhouette of the poet, keeping in mind the warm and rugged style. The second focuses on an important area for the poet: the bench he would frequent every morning during his journey.</p>
+    </div>
+    <img class="img-flex" src="{{site.baseurl}}/images/cm/cm-sketches.png" alt="">
+  </div>
+</section>
+
+<section class="my-padding">
+  <div class="grid grid-middle wrapper">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter">
+      <img class="img-flex" src="{{site.baseurl}}/images/cm/cm-final-design.jpg" alt="">
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 gutter small-max-length">
+      <h2 class="giga push-1-2">Sketches</h2>
+      <p class="milli push-0">The team decided to create two event posters. The first design features the desert within the silhouette of the poet, keeping in mind the warm and rugged style. The second focuses on an important area for the poet: the bench he would frequent every morning during his journey.</p>
+    </div>
+  </div>
+  <img class="img-flex my-padding-top" src="{{site.baseurl}}/images/cm/cm-colour-options.jpg" alt="">
+</section>
+
+<section>
+  <div class="wrapper gutter small-max-length my-padding-btm text-center">
+    <h2 class="giga push-1-2">Sketches</h2>
+    <p class="milli push-0">The team decided to create two event posters. The first design features the desert within the silhouette of the poet, keeping in mind the warm and rugged style. The second focuses on an important area for the poet: the bench he would frequent every morning during his journey.</p>
+  </div>
+  <div class="grid wrapper">
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 island-1-4">
+      <img class="img-flex" src="{{site.baseurl}}/images/cm/cm-tote.jpg" alt="">
+    </div>
+    <div class="unit xs-1 s-1 m-1-2 l-1-2 grid">
+      <div class="unit xs-1 s-1 m-1 l-1 island-1-4">
+        <img class="img-flex" src="{{site.baseurl}}/images/cm/cm-mug-2.jpg" alt="">
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-1 island-1-4">
+        <img class="img-flex" src="{{site.baseurl}}/images/cm/cm-pin.jpg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <a class="next-project-section no-decoration next-project-cm ib" href="{{site.baseurl}}{{data.nextUrl}}">
+  <div class="next-project-text pad-t-2 pad-b-2 text-center">
+    <p class="push-0 white view-next micro">View Next Project</p>
+    <p class="push-0 white serif tera">{{data.nextProject}}</p>
+  </div>
+  </a>
 </section>

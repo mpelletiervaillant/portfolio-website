@@ -63,7 +63,7 @@
   projectHeaderImage: wattiq-case-study-banner
   projectDate: October 2020 - March 2020
   nextProject: Canadian Geographic
-  nextUrl: canadian-geographic
+  nextUrl: /canadian-geographic
   gridClass: m-1-2
 
 - projectLink: /quilt
@@ -81,16 +81,20 @@
   projectTitle: Canadian Geographic
   projectShortDescription: Branded materials including stationery and video illustrations.
   projectLongDescription: When WattIQ approached us, they didn't have a clear look and feel for their brand. Using their existing logo and brand colours, I proposed and developed various cohesive materials to elevate their brand presence!
-  projectBanner: /can-geo/cangeo-spread-1.jpg
+  projectBanner: /can-geo/cangeo-banner.jpg
   projectHeaderImage: cangeo-case-study-banner
   projectDate: May 2019 - March 2020
   nextProject: Creative Mornings
-  nextUrl: creative-mornings
+  nextUrl: /creative-mornings
   gridClass: m-1-2
 
 - projectLink: /creative-mornings
   projectTitle: Creative Mornings Lettering
   projectShortDescription: uOttawa's Mental Health & Wellness rebrand.
   projectBanner: /cm/creative-mornings-banner.jpg
+  project Header Image:
+  projectDate: April 2019
+  nextProject: Gee-Gees Promotion
+  nextUrl: /gee-gees-promotion
   gridClass: m-1-2
 

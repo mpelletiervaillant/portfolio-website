@@ -88,6 +88,10 @@ a {
   font-family: var(--font-primary);
 }
 
+p {
+  color: #383838;
+}
+
 .light-border {
   border: 1px solid lightgrey;
 }
@@ -134,6 +138,15 @@ nav a:hover {
   letter-spacing: 3px;
 }
 
+.mel-logo {
+  width: 72px;
+  transition: all .2s ease-in-out;
+}
+
+.mel-logo:hover {
+  transform: scale(1.1);
+}
+
 .light-background {
   background-color: var(--color-beige);
 }
@@ -178,6 +191,10 @@ nav a:hover {
 .enter-here-btn:hover {
   background-position: right bottom;
   color: #fff;
+}
+
+.shop-text {
+  padding: 3em 0;
 }
 
 .social-media-links {
@@ -248,6 +265,10 @@ nav a:hover {
 
 .wellness-background-light {
   background-color: #F6F5F1;
+}
+
+.wellness-background-dark {
+  background-color: #232942;
 }
 
 .next-project-wellness:hover {
@@ -382,13 +403,26 @@ nav a:hover {
 }
 
 .next-project-cangeo {
-  background: linear-gradient(to right, #42b3c3 50%, #42b3c3 50%);
+  background: linear-gradient(to right, #42b3c3 50%, #7F62AD 50%);
   background-size: 200% 100%;
   background-position: left bottom;
   transition: all .6s ease-in-out;
 }
 
 .next-project-cangeo:hover {
+  background-position: right bottom;
+}
+
+/* Creative Mornings */
+
+.next-project-cm {
+  background: linear-gradient(to right, #7F62AD 50%, #5d0024 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .6s ease-in-out;
+}
+
+.next-project-cm:hover {
   background-position: right bottom;
 }
 
@@ -435,3 +469,13 @@ nav a:hover {
   transform: scale(1.05);
 }
 
+@media only screen and (min-width: 700px) {
+
+  .logo {
+    text-align: left;
+  }
+
+  .navigation-links {
+    text-align: right;
+  }
+}
