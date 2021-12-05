@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://http://melanypv.ca</loc>
+    <priority>1.0</priority>
+    <lastmod>2019-09/28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://http://melanypv.ca/project-big-life</loc>
+    <priority>0.5</priority>
+    <lastmod>2019-09/28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://http://melanypv.ca/quilt</loc>
+    <priority>0.5</priority>
+    <lastmod>2019-09/28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://http://melanypv.ca/parkinsons-network</loc>
+    <priority>0.5</priority>
+    <lastmod>2019-09/28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://http://melanypv.ca/canimmunize</loc>
+    <priority>0.5</priority>
+    <lastmod>2019-09/28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <url>
+    <loc>https://http://melanypv.ca/play</loc>
+    <priority>0.5</priority>
+    <lastmod>2019-09/28</lastmod>
+    <changefreq>monthly</changefreq>
+  </url>
+</urlset>

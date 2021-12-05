@@ -1,0 +1,14 @@
+# humanstxt.org
+
+# TEAM
+Designer & Developer: Melany Pelletier-Vaillant
+Site: https://melanypv.ca
+Gtihub: https://github.com/mpelletiervaillant
+Instagram: https://instagram.com/melany.pv
+Dribbble: https://dribbble.com/melanypv
+
+---
+
+# SOFTWARE
+- Atom
+- github

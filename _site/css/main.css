@@ -4,11 +4,14 @@
   --font-third: 'Termina', sans-serif;
   --color-black: #1C1C1C;
   --color-beige: #f8f7f5;
+  --color-hds: #583017;
 }
 
 html {
   scroll-behavior: smooth;
 }
+
+/* Typography */
 
 h1, h2, h4 {
   font-family: var(--font-primary);
@@ -18,6 +21,7 @@ h1, h2, h4 {
 p {
   font-family: var(--font-secondary);
   font-weight: 300;
+  color: #383838;
 }
 
 .my-max-length {
@@ -34,39 +38,15 @@ p {
   width: 100%;
 }
 
-.my-padding {
-  padding-top: 6.5rem;
-  padding-bottom: 6.5rem;
+.sans {
+  font-family: var(--font-secondary);
 }
 
-.my-padding-btm {
-  padding-bottom: 6.5rem;
+.serif {
+  font-family: var(--font-primary);
 }
 
-.my-padding-top {
-  padding-top: 6.5rem;
-}
-
-.arrow-icon {
-  width: 96px;
-  transition: all .2s ease-in-out;
-}
-
-.banner-img {
-  transition: all .2s ease-in-out;
-}
-
-.hover-card:hover {
-  cursor: pointer;
-}
-
-.hover-card:hover .arrow-icon {
-  transform: translateX(10%);
-}
-
-.hover-card:hover .banner-img {
-  transform: scale(1.015);
-}
+/* Colours & Links & Extras */
 
 a {
   text-decoration: none;
@@ -80,23 +60,76 @@ a {
   color: #ffffff;
 }
 
-.sans {
-  font-family: var(--font-secondary);
-}
-
-.serif {
-  font-family: var(--font-primary);
-}
-
-p {
-  color: #383838;
-}
-
 .light-border {
   border: 1px solid lightgrey;
 }
 
+.w-33 {
+  width: 32%;
+}
+
+.w-49 {
+  width: 49%;
+}
+
+/* Backgrounds */
+
+.light-background {
+  background-color: var(--color-beige);
+}
+
+.dark-background {
+  background-color: #333132;
+}
+
+/* Spacing */
+
+.my-padding {
+  padding-top: 6.5rem;
+  padding-bottom: 6.5rem;
+}
+
+.my-padding-btm {
+  padding-bottom: 6.5rem;
+}
+
+.my-padding-top {
+  padding-top: 6.5rem;
+}
+
+/* Buttons */
+
+.enter-here-btn {
+  border: 1px solid var(--color-black);
+  color: var(--color-black);
+  text-decoration: none;
+  font-family: var(--font-third);
+  font-weight: 600;
+  padding: 1.5em 2.5em 1.25em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: linear-gradient(to right, #fff 50%, var(--color-black) 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  transition: all .3s ease-in-out;
+}
+
+.enter-here-btn:hover {
+  background-position: right bottom;
+  color: #fff;
+}
+
 /* Navigation */
+
+.mel-logo {
+  width: 72px;
+  transition: all .2s ease-in-out;
+}
+
+.mel-logo:hover {
+  transform: scale(1.1);
+}
+
 nav a {
   text-decoration: none;
   color: var(--color-navy);
@@ -138,22 +171,7 @@ nav a:hover {
   letter-spacing: 3px;
 }
 
-.mel-logo {
-  width: 72px;
-  transition: all .2s ease-in-out;
-}
-
-.mel-logo:hover {
-  transform: scale(1.1);
-}
-
-.light-background {
-  background-color: var(--color-beige);
-}
-
-.dark-background {
-  background-color: #333132;
-}
+/* Visit Shop */
 
 .visit-shop-btn {
   color: var(--color-black);
@@ -173,29 +191,11 @@ nav a:hover {
   transition: all .2s ease-in-out;
 }
 
-.enter-here-btn {
-  border: 1px solid var(--color-black);
-  color: var(--color-black);
-  text-decoration: none;
-  font-family: var(--font-third);
-  font-weight: 600;
-  padding: 1.5em 2.5em 1.25em;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  background: linear-gradient(to right, #fff 50%, var(--color-black) 50%);
-  background-size: 200% 100%;
-  background-position: left bottom;
-  transition: all .3s ease-in-out;
-}
-
-.enter-here-btn:hover {
-  background-position: right bottom;
-  color: #fff;
-}
-
 .shop-text {
   padding: 3em 0;
 }
+
+/* Footer */
 
 .social-media-links {
   background-color: var(--color-beige);
@@ -207,11 +207,14 @@ nav a:hover {
   letter-spacing: 2px;
   font-weight: 600;
   color: var(--color-black);
-  transition: all .15s ease-in-out;
 }
 
-.social-media-links:hover {
-  color:#000;
+.social-media-link {
+  transition: all .2s ease-in-out;
+}
+
+.social-media-link:hover {
+  color: #26928F;
 }
 
 .footer-copyright {
@@ -222,6 +225,26 @@ nav a:hover {
 
 /* Case Studies */
 
+.arrow-icon {
+  width: 96px;
+  transition: all .2s ease-in-out;
+}
+
+.banner-img {
+  transition: all .2s ease-in-out;
+}
+
+.hover-card:hover {
+  cursor: pointer;
+}
+
+.hover-card:hover .arrow-icon {
+  transform: translateX(10%);
+}
+
+.hover-card:hover .banner-img {
+  transform: scale(1.015);
+}
 .project-description {
   width: 70%;
   line-height: 2.15;
@@ -288,6 +311,23 @@ nav a:hover {
   background-image: url("{{site.baseurl}}/images/hds/hds-case-study-banner.jpg"); /* The image used */
 }
 
+.hds-link {
+  background:
+    linear-gradient(
+      to bottom, #583017 0%, #583017 100%
+    );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: var(--color-hds);
+  transition: all .3s ease;
+}
+
+.hds-link:hover {
+  color: #fff;
+  background-size: 4px 50px;
+}
+
 .hds-logo {
   background-color: var(--color-beige);
 }
@@ -296,16 +336,12 @@ nav a:hover {
   color: #F5E6C9;
 }
 
-.event-text {
-  padding: 0 8em 0 8em;
-}
-
 .hds-light-background {
   background-color: #F5E6C9;
 }
 
 .hds-dark-background {
-  background-color: #583017;
+  background-color: var(--color-hds);
 }
 
 .next-project-hds {
@@ -323,15 +359,6 @@ nav a:hover {
 
 .youthfully-case-study-banner {
   background-image: url("{{site.baseurl}}/images/youthfully/branding-guidelines.jpg"); /* The image used */
-}
-
-.w-33 {
-  width: 32%;
-}
-
-
-.w-49 {
-  width: 49%;
 }
 
 .next-project-youthfully {
@@ -441,29 +468,6 @@ nav a:hover {
   letter-spacing: 3px;
   font-weight: 600;
 }
-
-/* .next-project-pbl,
-.next-project-parkinsons,
-.next-project-cm,
-.next-project-quilt {
-  transition: all .6s ease-in-out;
-}
-
-.next-project-pbl:hover {
-  background-color: var(--quilt-color);
-}
-
-.next-project-parkinsons:hover {
-  background-color: var(--canimmunize-color);
-}
-
-.next-project-cm:hover {
-  background-color: var(--color-canimmunize-color);
-}
-
-.next-project-quilt:hover {
-  background-color: var(--parkinsons-color);
-} */
 
 .next-project-section:hover .next-project-text {
   transform: scale(1.05);
