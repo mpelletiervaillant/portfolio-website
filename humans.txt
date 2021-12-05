@@ -10,5 +10,5 @@ Dribbble: https://dribbble.com/melanypv
 ---
 
 # SOFTWARE
-- Atom
+- Visual Studio Code
 - github
