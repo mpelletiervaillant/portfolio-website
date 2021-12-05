@@ -22,7 +22,7 @@
 
 - projectLink: /high-desert-sonnets
   projectTitle: High Desert Sonnets
-  projectShortDescription: uOttawa's Mental Health & Wellness rebrand.
+  projectShortDescription: Branded event materials and website for The High Desert Sonnets.
   projectLongDescription: The client had spent 1 month in the New Mexico desert writing sonnets. When he came home, he approached Simple Story to help with the creation of videos and branding for the project to eventually share his work and story with family and friends.
   projectBanner: /hds/hds-banner.jpg
   projectHeaderImage: hds-case-study-banner
@@ -35,7 +35,7 @@
 
 - projectLink: /youthfully
   projectTitle: Youthfully Branding
-  projectShortDescription: Marketing Materials for uOttawa Gee-Gees.
+  projectShortDescription: Branding package and website for Youthfully.
   projectLongDescription: A freelance client approached me needing help with brand and web design. After discussing his company and vision, I proposed & developed a full brand package including logo, social media assets, branding guidelines and website mockups.
   projectBanner: /youthfully/youthfully-banner.jpg
   projectHeaderImage: youthfully-case-study-banner
@@ -46,7 +46,7 @@
 
 - projectLink: /canimmunize
   projectTitle: CANImmunize
-  projectShortDescription: uOttawa's Mental Health & Wellness rebrand.
+  projectShortDescription: Work for the mobile application CANImmunize
   projectBanner: /canimmunize/canimmunize-banner.jpg
   projectHeaderImage: canimmunize-case-study-banner
   projectWebsite: www.canimmunize.ca
@@ -62,24 +62,24 @@
   projectBanner: /wattiq/wattiq-banner.jpg
   projectHeaderImage: wattiq-case-study-banner
   projectDate: October 2020 - March 2020
-  nextProject: Canadian Geographic
-  nextUrl: /canadian-geographic
+  nextProject: QUILT
+  nextUrl: /quilt
   gridClass: m-1-2
 
 - projectLink: /quilt
   projectTitle: QUILT
-  projectShortDescription: Branded materials including stationery and video illustrations.
+  projectShortDescription: Logo design for healthcare client QUILT.
   projectLongDescription: When WattIQ approached us, they didn't have a clear look and feel for their brand. Using their existing logo and brand colours, I proposed and developed various cohesive materials to elevate their brand presence!
   projectBanner: /quilt/quilt-banner.jpg
   projectHeaderImage: quilt-case-study-banner
   projectDate: May 2018
-  nextProject: CANImmunize
-  nextUrl: canimmunize
+  nextProject: Canadian Geographic
+  nextUrl: /canadian-geographic
   gridClass: m-1
 
 - projectLink: /can-geo
   projectTitle: Canadian Geographic
-  projectShortDescription: Branded materials including stationery and video illustrations.
+  projectShortDescription: Layout and illustration for 10, 000 Changes project.
   projectLongDescription: When WattIQ approached us, they didn't have a clear look and feel for their brand. Using their existing logo and brand colours, I proposed and developed various cohesive materials to elevate their brand presence!
   projectBanner: /can-geo/cangeo-banner.jpg
   projectHeaderImage: cangeo-case-study-banner
@@ -90,9 +90,9 @@
 
 - projectLink: /creative-mornings
   projectTitle: Creative Mornings Lettering
-  projectShortDescription: uOttawa's Mental Health & Wellness rebrand.
+  projectShortDescription: Lettering for morning event series Creative Mornings.
   projectBanner: /cm/creative-mornings-banner.jpg
-  project Header Image:
+  projectHeaderImage: cm-case-study-banner
   projectDate: April 2019
   nextProject: Gee-Gees Promotion
   nextUrl: /gee-gees-promotion

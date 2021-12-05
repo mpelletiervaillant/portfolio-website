@@ -362,7 +362,7 @@ nav a:hover {
 }
 
 .next-project-youthfully {
-  background: linear-gradient(to right, #52D0B6 50%, #7F62AD 50%);
+  background: linear-gradient(to right, #52D0B6 50%, #016eb1 50%);
   background-size: 200% 100%;
   background-position: left bottom;
   transition: all .6s ease-in-out;
@@ -396,7 +396,7 @@ nav a:hover {
 }
 
 .next-project-wattiq {
-  background: linear-gradient(to right, #092039 50%, #7F62AD 50%);
+  background: linear-gradient(to right, #092039 50%, #d63532 50%);
   background-size: 200% 100%;
   background-position: left bottom;
   transition: all .6s ease-in-out;
@@ -442,6 +442,10 @@ nav a:hover {
 
 /* Creative Mornings */
 
+.cm-case-study-banner {
+  background-image: url("{{site.baseurl}}/images/cm/cm-banner.jpg"); /* The image used */
+}
+
 .next-project-cm {
   background: linear-gradient(to right, #7F62AD 50%, #5d0024 50%);
   background-size: 200% 100%;
@@ -451,6 +455,23 @@ nav a:hover {
 
 .next-project-cm:hover {
   background-position: right bottom;
+}
+
+.cm-link {
+  background:
+    linear-gradient(
+      to bottom, #7F62AD 0%, #7F62AD 100%
+    );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: var(--color-hds);
+  transition: all .3s ease;
+}
+
+.cm-link:hover {
+  color: #fff;
+  background-size: 4px 50px;
 }
 
 /* Next Pooject Button */
