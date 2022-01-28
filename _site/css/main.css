@@ -171,6 +171,18 @@ nav a:hover {
   letter-spacing: 3px;
 }
 
+.exclamation {
+  color: #76953D;
+}
+
+.period {
+  color: #F4B8CB;
+}
+
+.love-text {
+  color: #F26D48;
+}
+
 /* Visit Shop */
 
 .visit-shop-btn {

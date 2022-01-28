@@ -5036,6 +5036,18 @@ nav a:hover {
   letter-spacing: 3px;
 }
 
+.exclamation {
+  color: #76953D;
+}
+
+.period {
+  color: #F4B8CB;
+}
+
+.love-text {
+  color: #F26D48;
+}
+
 /* Visit Shop */
 
 .visit-shop-btn {
@@ -5131,7 +5143,7 @@ nav a:hover {
 /* Gee-Gees */
 
 .gee-gees-case-study-banner {
-  background-image: url("/portfolio-website/images/gee-gees/gee-gees-banner.jpg"); /* The image used */
+  background-image: url("/images/gee-gees/gee-gees-banner.jpg"); /* The image used */
 }
 
 .next-project-gee-gees {
@@ -5148,7 +5160,7 @@ nav a:hover {
 /* Wellness  */
 
 .wellness-case-study-banner {
-  background-image: url("/portfolio-website/images/wellness/wellness-guidelines.jpg"); /* The image used */
+  background-image: url("/images/wellness/wellness-guidelines.jpg"); /* The image used */
 }
 
 .wellness-background-light {
@@ -5173,7 +5185,7 @@ nav a:hover {
 /* The High Desert Sonnets  */
 
 .hds-case-study-banner {
-  background-image: url("/portfolio-website/images/hds/hds-case-study-banner.jpg"); /* The image used */
+  background-image: url("/images/hds/hds-case-study-banner.jpg"); /* The image used */
 }
 
 .hds-link {
@@ -5223,7 +5235,7 @@ nav a:hover {
 /* Youthfully */
 
 .youthfully-case-study-banner {
-  background-image: url("/portfolio-website/images/youthfully/branding-guidelines.jpg"); /* The image used */
+  background-image: url("/images/youthfully/branding-guidelines.jpg"); /* The image used */
 }
 
 .next-project-youthfully {
@@ -5240,7 +5252,7 @@ nav a:hover {
 /* CANImmunize */
 
 .canimmunize-case-study-banner {
-  background-image: url("/portfolio-website/images/canimmunize/canimmunize-header.jpg"); /* The image used */
+  background-image: url("/images/canimmunize/canimmunize-header.jpg"); /* The image used */
 }
 
 .next-project-canimmunize {
@@ -5257,7 +5269,7 @@ nav a:hover {
 /* WattIQ */
 
 .wattiq-case-study-banner {
-  background-image: url("/portfolio-website/images/wattiq/video-3.jpg"); /* The image used */
+  background-image: url("/images/wattiq/video-3.jpg"); /* The image used */
 }
 
 .next-project-wattiq {
@@ -5274,7 +5286,7 @@ nav a:hover {
 /* QUILT */
 
 .quilt-case-study-banner {
-  background-image: url("/portfolio-website/images/quilt/quilt-banner.jpg"); /* The image used */
+  background-image: url("/images/quilt/quilt-banner.jpg"); /* The image used */
 }
 
 .next-project-quilt {
@@ -5291,7 +5303,7 @@ nav a:hover {
 /* Canadian Geographic */
 
 .cangeo-case-study-banner {
-  background-image: url("/portfolio-website/images/can-geo/cangeo-header.jpg"); /* The image used */
+  background-image: url("/images/can-geo/cangeo-header.jpg"); /* The image used */
 }
 
 .next-project-cangeo {
@@ -5308,7 +5320,7 @@ nav a:hover {
 /* Creative Mornings */
 
 .cm-case-study-banner {
-  background-image: url("/portfolio-website/images/cm/cm-banner.jpg"); /* The image used */
+  background-image: url("/images/cm/cm-banner.jpg"); /* The image used */
 }
 
 .next-project-cm {
